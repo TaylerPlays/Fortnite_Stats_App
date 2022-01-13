@@ -117,7 +117,7 @@ u = urlopen(IMAGEURL)
 raw_data = u.read()
 u.close()'''
 
-background_img = PhotoImage(file = 'D:\Python Projects\Hypixel\sky3.png')
+background_img = PhotoImage(file = 'sky3.png')
 background_label = Label(app, image = background_img)
 background_label.place(x = 0, y = 0, relwidth=1, relheight=1)
 
